@@ -13,15 +13,14 @@ import java.util.Scanner;
 public class VocalesONO {
 
     public static void main(String[] args) {
-        String a,e,i,o;
         System.out.println("Por favor ingrese una letra del abecedario");
         Scanner teclado=new Scanner(System.in);
         String letra=teclado.next();
-        if (letra == null ? a == null : letra.equals(a)){
-            System.out.println("NO es vocal");
+        if (letra== 'e' || letra== 'a' || letra == 'i' || letra == 'o' || letra == 'u'){
+            System.out.println("Es una vocal");
         }
         else{
-            System.out.println("Es una vocal");
+            System.out.println("No es una vocal");
         }
         
     }
