@@ -16,7 +16,7 @@ public class VocalesONO {
         System.out.println("Por favor ingrese una letra del abecedario");
         Scanner teclado=new Scanner(System.in);
         String letra=teclado.next();
-        if (letra== 'e' || letra== 'a' || letra == 'i' || letra == 'o' || letra == 'u'){
+        if ('e' == letra || 'a' == letra || 'i' == letra || 'o' == letra || 'u' == letra){
             System.out.println("Es una vocal");
         }
         else{
